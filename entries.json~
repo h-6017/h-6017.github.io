@@ -14,11 +14,6 @@
 		"date":"04/15/2015",
 		"title":"My life is a lie, code is truth.",
 		"text":"The computer only does what you tell it to do. Sounds easy, but what happens when you have no idea what you told the damned thing to do. Or what if you told it to do something and it does something else. What do you change? What do you keep? Today was an exercise in print commands. I have decided that, for now, there can never be toomany print statements. Yes, it is cumbersome. Yes, #'s become very important. But I found that my understanding of what I was doing grew exponentially the more I painstakingly forced my code to tell me exactly what it was doing, and to write out the answers that it was recieving. I don't feel more confident in my ability to understand what I'm doingthan I did yesterday. But I begin to see that I WILL understand it with more exposure. -Brandon Brown  :wq"
-		},
-        {
-		"date":"04/15/2015",
-		"title":"Form and Function()",
-		"text":"I wish I had more to say but I don't. Today I saw a function. I think I can see how it could be used. But I can't see much farther than that. Trying to actually put something useful on the screen today has been rather nightmareish. When I did actually start trying to write some code with functions, I couldn't help but feel that I was creating busy work for no real reason. My brain can't grasp the design concept well enough to plan out what functions I would need, and then also design the functions to interact correctly as I go along. As soon as I finished one, I realized i needed another one. Or, conversely, I would realize that I had made a useless or combersome function that had no place in the code. Frustrated and sleepy. Brandon Brown ~/sudo shutdown -h now"
 		}
 	]
 }
