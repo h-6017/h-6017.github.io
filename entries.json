@@ -16,12 +16,12 @@
 		"text":"The computer only does what you tell it to do. Sounds easy, but what happens when you have no idea what you told the damned thing to do. Or what if you told it to do one thing and it does another. What do you change? What do you keep? Today was an exercise in print commands. I have decided that, for now, there can never be too many print statements. Yes, it is cumbersome. Yes, #'s become very important. But I found that my understanding of what I was doing grew exponentially the more I painstakingly forced my code to tell me exactly what it was doing, and to write out the answers that it was recieving. I don't feel more confident in my ability to understand what I'm doing than I did yesterday. But I begin to see that I WILL understand it with more exposure. <br/>-Brandon Brown  <br/>:wq"
 		},
                 {
-		"date":"04/15/2015",
+		"date":"04/16/2015",
 		"title":"Form and Function()",
 		"text":"I wish I had more to say but I don't. Today I saw a function. I think I can see how it could be used. But I can't see much farther than that. Trying to actually put something useful on the screen today has been rather nightmareish. When I did actually start trying to write some code with functions, I couldn't help but feel that I was creating busy work for no real reason. My brain can't grasp the design concept well enough to plan out what functions I would need, and then also design the functions to interact correctly as I go along. As soon as I finished one, I realized i needed another one. Or, conversely, I would realize that I had made a useless or combersome function that had no place in the code. Frustrated and sleepy. <br/>Brandon Brown <br/>~/sudo shutdown -h now"
 		}
 		{
-		"date":"04/15/2015",
+		"date":"04/17/2015",
 		"title":"This stuff is loopy",
 		"text":"I am quite happy that it is friday. But maybe not for the reason that you think. After the onslought of information, nay the veritable deluge of data, I need some time to go through all the key words I have written down, the key concepts I have tucked away for future reference need to be referenced, and the trailing lines of my thought processes need to be solidified into actual knowledge I can do something with, rather than a string of copy paste commands that my brain can run. I am jazzed and invigorated, and I can't wait to learn more. If only my brain could keep up with my heart. I must content myself with the knowledge that I am making progress, and whether I feel that it is fast enough or not. <br/> for int in brain:<br/>    print brain<br/>None<br/><br/>-Brandon Brown<br/>:wq'"
 		}
