@@ -23,12 +23,17 @@
 		{
 		"date":"04/17/2015",
 		"title":"This stuff is loopy",
-		"text":"I am quite happy that it is friday. But maybe not for the reason that you think. After the onslought of information, nay the veritable deluge of data, I need some time to go through all the key words I have written down, the key concepts I have tucked away for future reference need to be referenced, and the trailing lines of my thought processes need to be solidified into actual knowledge I can do something with, rather than a string of copy paste commands that my brain can run. I am jazzed and invigorated, and I can't wait to learn more. If only my brain could keep up with my heart. I must content myself with the knowledge that I am making progress, and whether I feel that it is fast enough or not. <br/> for int in brain:<br/>    print brain<br/>None<br/><br/>-Brandon Brown<br/>:wq'"
+		"text":"I am quite happy that it is friday. But maybe not for the reason that you think. After the onslought of information, nay the veritable deluge of data, I need some time to go through all the key words I have written down, the key concepts I have tucked away for future reference need to be referenced, and the trailing lines of my thought processes need to be solidified into actual knowledge I can do something with, rather than a string of copy paste commands that my brain can run. I am jazzed and invigorated, and I can't wait to learn more. If only my brain could keep up with my heart. I must content myself with the knowledge that I am making progress, and whether I feel that it is fast enough or not.<br/>-Brandon Brown<br/>:wq"
 		},
 		{
 		"date":"04/20/2015",
 		"title":"A day of win",
 		"text":"Today was a day in which I allowed myself to just accept where I was at as for as learning was concerned, and it was a good decision. Despite my apparent lack of progress I discovered that the information was indeed slowly seeping into my skull. I wrote a piece of code to allow me to pick up a data stream from twitter, and it only took my two tries to get it to work. Thats a win. I also succeeded in wrapping my head more firmly around the design principles I have been struggling to learn, and subsequently the code has gone from a foreign language I've never seen before to a system that I can visualize, albeit not well or smoothly, but visualize none the less. I'm happy, I'm triumphant, I'm ready to learn more.<br/>-Brandon Brown<br/>:wq"
+		},
+		{
+		"date":"04/21/2015",
+		"title":"Patience is not my virtue",
+		"text":"I have made a lot of great striding steps in my own personal developement in the last week. I have begun to learn a new written language, a new operating system, and I am implementing a new organizational tool for manageing my time and tasks. I've done really well, and can see improvement already. But for some reason it just isn't enough for me. I understand on the conceptual level that I should be ecstatic about my progress thus far, that I expect to improve too quickly. But the fact remains that it isn't good enough. The ideas don't present themselves to me. This stuff isn't even close to being intuitive to me, and because I take so long to solve the labs, my project falls behind. I feel worthless for spending time on lab, yet I can't justify doing my own research until the lab is finished, and now I stand at the end of the day with an incomplete lab and a piece of code that I didn't add one line to all day. I guess the only thing left to do is clear my head, and hope that after my brain cools off it's had a chance to process the question in a different way.<br/>-Brandon Brown<br/>:q!"
 		}
 	]
 }
