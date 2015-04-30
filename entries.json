@@ -61,9 +61,14 @@
 		"text":"We finished the python core curriculum today, and I am happy to say that I am incredibly excited to keep learning python! Today I built a program that could listen to the twitter stream, and when it found a specific word inside a given tweet, would reply to that user with a tweet of my own. I also built a game that would allow the user to guess a number that the computer had picked, with only a higher or lower indicator after each input. I consistantly and diligently continued to build on my personal project, and I can feel the language and the mindset resolving itself in me. Tomorrow we begin our foray into JavaScript, and though it is unknown terratory, it is an adventure I can't wait to dive into... After I read some more about Python of course.<br/>-Brandon Brown<br/>Import This"
 		},
 		{
-		"date":"04/28/2015",
+		"date":"04/29/2015",
 		"title":"Coming along",
 		"text":"Today we got a crash course in HTML, and then spent the day trying to make a web page look like another webpage. I am frustrated by the fact that although I have followed the steps there is one thing that will not be fixed, no matter how much I fight with it. One thing I like about this new topic is I get an opportunity to see my changes as I make them, which reinforces the feeling that I am creating something tangible. Let us hope that this trend continues. I was also able to put some time into my online presence today, so don't forget to follow me on twitter. @sudopriest<br/>-Brandon Brown<br/>:wq"
+		},
+		{
+		"date":"04/30/2015",
+		"title":"JavaScript != Python",
+		"text":"Today was all about JavaScript, and an interesting day it has been. Having a little bit of foundation in Python and the 'principles of programming' made learning the new syntax fairly easy, and the primer on html and css from yesterday was invaluable in giving me context in which to think about what I was doing with JavaScript. Both good things, but it doesn't change the fact that I'm sick of {}'s and ;'s. I was surprised at the speed with which I picked up the basic operations, such as for and while loops, if and switch statements and declaring variables and objects, but am disappointed to find that in order to get things done there is still alot of slow, meticulous reading and fiddling about(who knew?). I am getting the hang of the learning process though and consequently I can focus more and more clearly.<br/>-Brandon Brown<br/>:wq"
 		}
 	]
 }
