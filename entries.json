@@ -69,6 +69,11 @@
 		"date":"04/30/2015",
 		"title":"JavaScript != Python",
 		"text":"Today was all about JavaScript, and an interesting day it has been. Having a little bit of foundation in Python and the 'principles of programming' made learning the new syntax fairly easy, and the primer on html and css from yesterday was invaluable in giving me context in which to think about what I was doing with JavaScript. Both good things, but it doesn't change the fact that I'm sick of {}'s and ;'s. I was surprised at the speed with which I picked up the basic operations, such as for and while loops, if and switch statements and declaring variables and objects, but am disappointed to find that in order to get things done there is still alot of slow, meticulous reading and fiddling about(who knew?). I am getting the hang of the learning process though and consequently I can focus more and more clearly.<br/>-Brandon Brown<br/>:wq"
+		},
+		{
+		"date":"05/01/2015",
+		"title":"3D arrays on a 2D screen",
+		"text":"I am pleased to record that my efforts today have been incredibly fruitful. The lab on using the Date() object in JavaScript that gave me so much trouble yesterday was much easier to understand with a fresh mind this morning. And the various exercises and coding challenges were easy to break down and think out. I may actually have begun to think like a developer in some deep part of my brain. Most of the work today had to do with using loops to parse through multidimensional arrays, and after a little experimentation I was able to wrap my brain around the concepts fairly quickly. More and more I am realizing the value of trying things out. If it makes sense to you that it should work a specific way, then code it that way and see why it breaks, fix what you think is wrong and try it again. Rinse, Repeat. It sounds tedious, and to an extent it is. But I've found that the more I force myself to go through it, the less I have to fiddle around on the next problem I encounter. For now I'm happy with my progress this week, I'm happy that it is friday, and I'm excited to work on my own projects this week.<br/>-Brandon Brown<br/>:wq"
 		}
 	]
 }
