@@ -74,6 +74,11 @@
 		"date":"05/01/2015",
 		"title":"3D arrays on a 2D screen",
 		"text":"I am pleased to record that my efforts today have been incredibly fruitful. The lab on using the Date() object in JavaScript that gave me so much trouble yesterday was much easier to understand with a fresh mind this morning. And the various exercises and coding challenges were easy to break down and think out. I may actually have begun to think like a developer in some deep part of my brain. Most of the work today had to do with using loops to parse through multidimensional arrays, and after a little experimentation I was able to wrap my brain around the concepts fairly quickly. More and more I am realizing the value of trying things out. If it makes sense to you that it should work a specific way, then code it that way and see why it breaks, fix what you think is wrong and try it again. Rinse, Repeat. It sounds tedious, and to an extent it is. But I've found that the more I force myself to go through it, the less I have to fiddle around on the next problem I encounter. For now I'm happy with my progress this week, I'm happy that it is friday, and I'm excited to work on my own projects this week.<br/>-Brandon Brown<br/>:wq"
+		},
+		{
+		"date":"05/04/2015",
+		"title":"js dysfunction()",
+		"text":"I started to actually dive in to using JavaScript on a web page today, and honestly it is more of the same. Google search, try potential solution, google search, try potential solution number 2... and so on. I worked on sourcing a .js file from an Html file, and calling javascript functions from an Html file. The understanding of what is actually going on is still elusive, but I made some things happen, which is cool. Each triumph is quickly overshadowed by the next problem, however, and overall it has been a rather slow day. The only other thing worth bringing attention to is the fact that I hate when I can't tell why what I coded is doing something I don't want it to do.<br/>-Brandon Brown<br/>:wq"
 		}
 	]
 }
