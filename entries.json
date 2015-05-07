@@ -83,7 +83,7 @@
 		{
 		"date":"05/05/2015",
 		"title":"blogPost",
-		"text":"JQuery is quite good at finding things. I am aware that it is quite good at much more than finding things, but for today I am comfortable with, "It's good at finding things." Today was all about using jquery to validate certain inputs from the user. We created some basic input tags designed to take in a string, and then created functions in a separate .js file to grab the values from those inputs and decide whether or not the input was correctly formatted or do some other action with the input we receive. I definitely needed today, it felt good to just work and learn. <br/>-Brandon Brown<br/>:wq"
+		"text":"JQuery is quite good at finding things. I am aware that it is quite good at much more than finding things, but for today I am comfortable with, It's good at finding things. Today was all about using jquery to validate certain inputs from the user. We created some basic input tags designed to take in a string, and then created functions in a separate .js file to grab the values from those inputs and decide whether or not the input was correctly formatted or do some other action with the input we receive. I definitely needed today, it felt good to just work and learn. <br/>-Brandon Brown<br/>:wq"
 		},
 		{
 		"date":"05/06/2015",
