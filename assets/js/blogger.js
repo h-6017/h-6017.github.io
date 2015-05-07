@@ -5,8 +5,10 @@ function getblog(){
     var entries = $.getJSON('entries.json');
     $('#blog').html($.parseJSON(entries));
 */    
+    alert("My body is ready");
 function getblog(){
-    $.getJSON('entries.json', function(data) {
+    alert("infunction");
+    $.getJSON('../../entries.json', function(data) {
         $.each(data.entries, function(key, val) {
             console.log(key + " " + val.date);
         });
