@@ -164,6 +164,23 @@
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/blogger.js"></script>
+<script>
+function getblog() {
+    alert("infunction");
+    $.getJSON('../../entries.json', function(data) {
+        alert("we got the file");
+        $.each(data.entries, function(key, val) {
+            alert("reading the file");
+            console.log(key + " " + val.date);
+        });
+    });
+};
+$(document).ready(function(){
+    alert("My body is ready");
+    getBlog()
+});
+
+</script>
 
 </body>
 </html>

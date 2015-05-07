@@ -1,10 +1,7 @@
 //this is my new blog... isn't it great?
-$(document).ready(function(){
 /*
-function getblog(){
-    var entries = $.getJSON('entries.json');
-    $('#blog').html($.parseJSON(entries));
-*/    
+$(document).ready(function(){
+    
     alert("My body is ready");
 function getblog(){
     alert("infunction");
@@ -15,7 +12,7 @@ function getblog(){
             console.log(key + " " + val.date);
         });
     });
-}
 getblog();
 
+});
 });
