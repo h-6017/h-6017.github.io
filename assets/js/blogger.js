@@ -9,7 +9,7 @@ function getblog(){
     $.getJSON('entries.json', function(data) {
 $.each(data.entries, function(key, val) {
                        console.log(key + " " + val.date);
-                 }
-     }
+});
+     });
 }
 ///
