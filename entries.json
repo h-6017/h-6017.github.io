@@ -79,6 +79,16 @@
 		"date":"05/04/2015",
 		"title":"js dysfunction()",
 		"text":"I started to actually dive in to using JavaScript on a web page today, and honestly it is more of the same. Google search, try potential solution, google search, try potential solution number 2... and so on. I worked on sourcing a .js file from an Html file, and calling javascript functions from an Html file. The understanding of what is actually going on is still elusive, but I made some things happen, which is cool. Each triumph is quickly overshadowed by the next problem, however, and overall it has been a rather slow day. The only other thing worth bringing attention to is the fact that I hate when I can't tell why what I coded is doing something I don't want it to do.<br/>-Brandon Brown<br/>:wq"
+		},
+		{
+		"date":"05/05/2015",
+		"title":"$('#blogPost').val()",
+		"text":"JQuery is quite good at finding things. I am aware that it is quite good at much more than finding things, but for today I am comfortable with, "It's good at finding things." Today was all about using jquery to validate certain inputs from the user. We created some basic input tags designed to take in a string, and then created functions in a separate .js file to grab the values from those inputs and decide whether or not the input was correctly formatted or do some other action with the input we receive. I definitely needed today, it felt good to just work and learn. <br/>-Brandon Brown<br/>:wq"
+		},
+		{
+		"date":"05/06/2015",
+		"title":"Elevator Pitch",
+		"text":"'My name is Brandon Brown, and I am a junior software developer at devCodeCamp in Waukesha, WI. I am familiar with Python  and JavaScript/jQuery. I have used the twitter api with python to create a basic twitter bot to find and reply to certain messages people send, and also with a team to extrapolate trending topics based on messages we received from a couple different locations in the U.S. I was responsible for implementing the code that allowed us to stream the data, and also worked with MongoDB in order to pick out certain pieces of the data we wanted to extrapolate from. As a security guard I learned to interact with many different kinds of people, and how to work independently to accomplish tasks. I have also trained in, and taught, martial arts for the last 14 years, which has given me alot of insight into the learning process, and helped me to learn how to formulate ideas and concepts into their tangible, practical application. Combine these traits with a teachable spirit, a passion for learning new things and developing myself, and an outgoing personality, I feel that I would be a perfect fit for your organization. Here, take my card.'"<br/>-Brandon Brown<br/>:wq"
 		}
 	]
 }
