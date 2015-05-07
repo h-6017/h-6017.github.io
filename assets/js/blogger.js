@@ -9,8 +9,8 @@ function getBlog() {
         });
     });
 }
-$(document).ready(function(){
-    alert("My body is ready");
+//$(document).ready(function(){
+//    alert("My body is ready");
     getBlog();
-});
+//});
 
