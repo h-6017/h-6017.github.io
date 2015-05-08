@@ -14,12 +14,12 @@ function pager() {
             var end = start + perPage;
             items.hide()
                  .slice(start, end).show();
-            if (pageNum == start) {
+            if (pageNum == 1) {
                 $('.page-link.prev').hide();
             } else {
                 $('.page-link.prev').show();
             }
-            if (pageNum = end) {
+            if (pageNum == end) {
                 $('.page-link.next').hide();
             }else{
                 $('.page-link.next').show();
