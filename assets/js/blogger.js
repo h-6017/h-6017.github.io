@@ -23,20 +23,28 @@ function getBlog() {
         $.each(data.entries, function(key, val) {
 
             console.log("Selecting Blog number " + key + " for next generation.");
-            $('#blog').append("<div id='" + key + "' class='col-sm-12 blogpost'>");
-            $('#blog').append("<small>");
-            $('#blog').append("<p class='muted' style='float:right;'>" + val.date + "</p>");
-            $('#blog').append("<small/>");
-            $('#blog').append("<h5>" + val.title + "</h5>");
-            $('#blog').append("<p>" + val.text + "</p>");
-            $('#blog').append("<hr/>");
-            $('#blog').append("</div>");
-            console.log("Blog number " + key + " generating...");
+            var newBlogPost = $("<div id='" + key + "' class='col-sm-12 blogpost'></div>") 
+            var small = $("<small>")
+            var para = $("<p class='muted' style='float:right;'>" + val.date + "</p>")
 
+            small.append(para)
+            var heading = $("<h5>" + val.title + "</h5>");
+            var content = $("<p>" + val.text + "</p>");
+
+            newBlogPost
+                .append(small)
+                .append(heading)
+                .append(content)
+                .append("<hr/>")
+
+            $('#blog').append(newBlogPost);
+
+            console.log("Blog number " + key + " generating...");
         });
         $(document).trigger('entries-loaded')
     });
 }
+
 $(document).ready(function(){
     getBlog();
     $(document).on('entries-loaded', pager);
