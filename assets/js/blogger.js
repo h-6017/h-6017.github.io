@@ -2,7 +2,7 @@
 function pager() {
     var items = $('.blogpost');
     var numItems = items.length;
-    var perPage = 5;
+    var perPage = 2;
     items.slice(perPage).hide();
 
     $('#blogcontent').pagination( {
