@@ -1,7 +1,7 @@
 //this is my new blog... isn't it great?
 function pager() {
     var items = $('.blogpost');
-    var numItems = items;
+    var numItems = items.length;
     var perPage = 5;
     items.slice(perPage).hide();
 
@@ -34,10 +34,11 @@ function getBlog() {
             console.log("Blog number " + key + " generating...");
 
         });
+        $(document).trigger('entries-loaded')
     });
 }
 $(document).ready(function(){
     getBlog();
-    pager();
+    $(document).on('entries-loaded', pager);
 });
 
