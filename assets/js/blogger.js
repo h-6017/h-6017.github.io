@@ -16,7 +16,7 @@ jQuery(function($) {
                  .slice(start, end).show();
         }
    });
-}
+});
 
 function getBlog() {
     $.get('entries.json', function(data) {
