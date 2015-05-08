@@ -1,4 +1,23 @@
 //this is my new blog... isn't it great?
+function pager() {
+    var items = $('.blogpost');
+    var numItems = items.length;
+    var perPage = 5;
+    items.slice(perPage).hide();
+
+    $('#blogcontent').pagination( {
+        items:numItems,
+        itemsOnPage:perPage,
+        cssStyle:"dark-theme",
+        onPageClick: function(pageNum) {
+            var start = perPage * (pageNum - 1);
+            var end = start + perPage;
+            pageParts.hide();
+            .slice(start, end).show();
+        }
+   });
+}
+
 function getBlog() {
     $.get('entries.json', function(data) {
         $.each(data.entries, function(key, val) {
@@ -19,5 +38,6 @@ function getBlog() {
 }
 $(document).ready(function(){
     getBlog();
+    pager();
 });
 
