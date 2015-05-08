@@ -12,8 +12,7 @@ function pager() {
         onPageClick: function(pageNum) {
             var start = perPage * (pageNum - 1);
             var end = start + perPage;
-            pageParts.hide();
-            .slice(start, end).show();
+            items.hide().slice(start, end).show();
         }
    });
 }
