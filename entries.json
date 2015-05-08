@@ -89,6 +89,11 @@
 		"date":"05/06/2015",
 		"title":"Elevator Pitch",
 		"text":"My name is Brandon Brown, and I am a junior software developer at devCodeCamp in Waukesha, WI. I am familiar with Python  and JavaScript/jQuery. I have used the twitter api with python to create a basic twitter bot to find and reply to certain messages people send, and also with a team to extrapolate trending topics based on messages we received from a couple different locations in the U.S. I was responsible for implementing the code that allowed us to stream the data, and also worked with MongoDB in order to pick out certain pieces of the data we wanted to extrapolate from. As a security guard I learned to interact with many different kinds of people, and how to work independently to accomplish tasks. I have also trained in, and taught, martial arts for the last 14 years, which has given me alot of insight into the learning process, and helped me to learn how to formulate ideas and concepts into their tangible, practical application. Combine these traits with a teachable spirit, a passion for learning new things and developing myself, and an outgoing personality, I feel that I would be a perfect fit for your organization. Here, take my card.<br/>-Brandon Brown<br/>:wq"
+		},
+		{
+		"date":"05/06/2015",
+		"title":"Math",
+		"text":"Today was frustrating for an entirely new and exciting reason. Well, perhapse not exciting, but certainly new. I have spent much of the day trying to create a form on  a webpage that could take in amounts of material (brick, wood, concrete, etc.) and use this information to auto display the total cost of the combined materials, and the square footage we could achieve with the given amount of materials based on an equation given to us with the materials required for one square foot of house. The coding part wasn't the issue, it was the math. I couldn't wrap my head around it at all. And spent most of the day in a fog of malcontent and hazy confusion. When I finally did get some help, the solution seemed so obvious. But I did finish the assignment and I am amped up to tackle the blog project on the morrow.<br/>-Brandon Brown<br/>:wq"
 		}
 	]
 }
