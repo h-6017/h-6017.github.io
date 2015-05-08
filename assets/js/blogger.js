@@ -1,5 +1,5 @@
 //this is my new blog... isn't it great?
-jQuery(function($) {
+function pager() {
     var items = $('.blogpost');
     var numItems = items.length;
     var perPage = 5;
@@ -16,7 +16,7 @@ jQuery(function($) {
                  .slice(start, end).show();
         }
    });
-});
+}
 
 function getBlog() {
     $.get('entries.json', function(data) {
@@ -38,5 +38,6 @@ function getBlog() {
 }
 $(document).ready(function(){
     getBlog();
+    pager();
 });
 
