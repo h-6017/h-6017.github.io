@@ -19,11 +19,6 @@ function pager() {
             } else {
                 $('.page-link.prev').show();
             }
-            if (pageNum == end) {
-                $('.page-link.next').hide();
-            }else{
-                $('.page-link.next').show();
-            }
         }
    });
 }
