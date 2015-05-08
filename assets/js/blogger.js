@@ -15,9 +15,9 @@ function pager() {
             items.hide()
                  .slice(start, end).show();
             if (pageNum == 1) {
-                $('.page-link.prev').hide();
+                $('.current.prev').hide();
             } else {
-                $('.page-link.prev').show();
+                $('.current.prev').show();
             }
         }
    });
