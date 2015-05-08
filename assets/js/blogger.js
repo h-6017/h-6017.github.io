@@ -19,6 +19,11 @@ function pager() {
             } else {
                 $('.current.prev').show();
             }
+            if (pageNum == end) {
+                $('.current.next').hide();
+            }else{
+                $('.current.next').show();
+            }
         }
    });
 }
