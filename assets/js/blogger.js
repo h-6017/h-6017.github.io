@@ -5,7 +5,7 @@ function getBlog() {
         alert("we got the file");
         $.each(data.entries, function(key, val) {
 
-            console.log("Selecting Blog number " + key + " for generation.");
+            console.log("Selecting Blog number " + key + " for next generation.");
             $('#blog').append("<div id='" + key + "' class='col-sm-12 blogpost'>");
             $('#blog').append("<small>");
             $('#blog').append("<p class='muted' style='float:right;'>" + val.date + "</p>");
