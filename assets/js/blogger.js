@@ -1,7 +1,7 @@
 //this is my new blog... isn't it great?
 function pager() {
     var items = $('.blogpost');
-    var numItems = items.length;
+    var numItems = items;
     var perPage = 5;
     items.slice(perPage).hide();
 
