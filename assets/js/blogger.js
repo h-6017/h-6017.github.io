@@ -18,13 +18,17 @@ function pager() {
             items.hide()
                  .slice(start, end).show();
             if(pageNum == 1) {
+                console.log('hiding the previous button');
                 $('.current.prev').hide();
             }else{
+                console.log('showing the previous button');
                 $('.current.prev').show();
             }
             if(pageNum == numItems) {
+                console.log('hiding the next button');
                 $('.page-link.next').hide();
             }else {
+                console.log('showing the next button');
                 $('.page-link.next').show();
             }
         }      
