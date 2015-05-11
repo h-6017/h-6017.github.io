@@ -20,16 +20,20 @@ function pager() {
             if(pageNum == 1) {
                 console.log('hiding the previous  button');
                 $('.current.prev').hide();
+                $('.page-link.prev').hide();
             }else{
                 console.log('showing the previous button');
                 $('.current.prev').show();
+                $('.page-link.prev').show();
             }
             if(pageNum == (numItems/perPage)) {
                 console.log('hiding the next button');
                 $('.page-link.next').hide();
+                $('.current.next').hide();
             }else {
                 console.log('showing the next button');
                 $('.page-link.next').show();
+                $('.current.next').show();
             }
         }      
    });
