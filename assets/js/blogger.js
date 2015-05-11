@@ -26,7 +26,7 @@ function pager() {
                 $('.current.prev').show();
                 $('.page-link.prev').show();
             }
-            if(pageNum == Math.floor(numItems/perPage)) {
+            if(pageNum == Math.floor((numItems/perPage)+1)) {
                 console.log('hiding the next button');
                 $('.page-link.next').hide();
                 $('.current.next').hide();
