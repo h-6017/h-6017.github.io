@@ -14,17 +14,7 @@ function pager() {
             var end = start + perPage;
             items.hide()
                  .slice(start, end).show();
-            if (pageNum == 1) {
-                $('.current.prev').hide();
-            } else {
-                $('.current.prev').show();
-            }
-            if (pageNum == end) {
-                $('.current.next').hide();
-            }else{
-                $('.current.next').show();
-            }
-        }
+            
    });
 }
 
