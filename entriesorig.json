@@ -91,9 +91,19 @@
 		"text":"My name is Brandon Brown, and I am a junior software developer at devCodeCamp in Waukesha, WI. I am familiar with Python  and JavaScript/jQuery. I have used the twitter api with python to create a basic twitter bot to find and reply to certain messages people send, and also with a team to extrapolate trending topics based on messages we received from a couple different locations in the U.S. I was responsible for implementing the code that allowed us to stream the data, and also worked with MongoDB in order to pick out certain pieces of the data we wanted to extrapolate from. As a security guard I learned to interact with many different kinds of people, and how to work independently to accomplish tasks. I have also trained in, and taught, martial arts for the last 14 years, which has given me alot of insight into the learning process, and helped me to learn how to formulate ideas and concepts into their tangible, practical application. Combine these traits with a teachable spirit, a passion for learning new things and developing myself, and an outgoing personality, I feel that I would be a perfect fit for your organization. Here, take my card.<br/>-Brandon Brown<br/>:wq"
 		},
 		{
-		"date":"05/06/2015",
+		"date":"05/07/2015",
 		"title":"Math",
 		"text":"Today was frustrating for a new and exciting reason. Well, perhapse not exciting, but certainly new. I have spent much of the day trying to create a form on  a webpage that could take in amounts of material (brick, wood, concrete, etc.) and use this information to auto display the total cost of the combined materials, and the square footage we could achieve with the given amount of materials based on an equation given to us with the materials required for one square foot of house. The coding part wasn't the issue, it was the math. I couldn't wrap my head around it at all. And spent most of the day in a fog of malcontent and hazy confusion. When I finally did get some help, the solution seemed so obvious. But I did finish the assignment and I am amped up to tackle the blog project on the morrow.<br/>-Brandon Brown<br/>:wq"
+		},
+		{
+		"date":"05/08/2015",
+		"title":"Blogoshtuff",
+		"text":"Had a productive day today, but again, I failed to complete the assigned task in the allotted time. I worked on my blog website today, trying to implement some pagination and search functionality. I made a lot of headway, slow though it was. I am understanding jQuery more and more, which is great. But my brain is rather deflated today, and it has been really hard to stay focused. Hopefully this weekend will grant some clarity and peace of mind.<br>-Brandon Brown<br>:wq "
+		},
+		{
+		"date":"05/11/2015",
+		"title":"TroubleShot",
+		"text":"I learned a lot of interesting things today about using the resources available to me. In Chrome, it is possible to see the html code of the elements on the page, and this is an incredibly useful tool. If at any point your not sure why something is acting the way it is, it's as easy as right clicking the element to find out why. Now you may not be able to find the underlying problem as easy as that, but it gives you a solid starting point. The other interesting thing is the power of using jQuery in your browser to affect the landscape of the html page in real time. It doesn't change the actual source code, but it's great for testing certain things and seeing how they will look before you hard code them. I was able to finish the pagination of my blog posts using this technique and it made the whole machine make a lot more sense to me. I can't wait to keep working on this blog, it's great to have a tangible representation of my efforts.<br>-Brandon Brown<br>:wq"
 		}
 	]
 }
