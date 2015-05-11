@@ -17,15 +17,15 @@ function pager() {
             var end = start + perPage;
             items.hide()
                  .slice(start, end).show();
-            if(pageNum != 1) {
-                $('.current.prev').show();
-            }else{
+            if(pageNum == 1) {
                 $('.current.prev').hide();
+            }else{
+                $('.current.prev').show();
             }
-            if(pageNum != numItems) {
-                $('.page-link.next').show();
-            }else {
+            if(pageNum == numItems) {
                 $('.page-link.next').hide();
+            }else {
+                $('.page-link.next').show();
             }
         }      
    });
@@ -33,7 +33,6 @@ function pager() {
         $('.ellipse').hide();
         $('.current').hide();
         $('.page-link.next').show();
-        $('.current.prev').show();
 }
 
 
