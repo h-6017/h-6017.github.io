@@ -24,7 +24,7 @@ function pager() {
                 console.log('showing the previous button');
                 $('.current.prev').show();
             }
-            if(pageNum == numItems) {
+            if(pageNum == items) {
                 console.log('hiding the next button');
                 $('.page-link.next').hide();
             }else {
