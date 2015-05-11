@@ -9,6 +9,7 @@ function pager() {
         items:numItems,
         itemsOnPage:perPage,
         cssStyle:"dark-theme",
+        $('.current.prev').hide();
         onPageClick: function(pageNum) {
             $('.page-link').hide();
             $('.current').hide();
