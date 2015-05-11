@@ -22,12 +22,6 @@ function pager() {
    });
 }
 
-function previousPage() {
-    
-}
-function nextPage() {
-    //next page
-}
 
 function getBlog() {
     $.get('entriesorig.json', function(data) {
