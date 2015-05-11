@@ -12,12 +12,22 @@ function pager() {
         onPageClick: function(pageNum) {
             var start = perPage * (pageNum - 1);
             var end = start + perPage;
+            $('.page-link').hide();
+            $('.current').hide();
+            $('.page-link.next').show();
+            $('.current.prev').show();
             items.hide()
                  .slice(start, end).show();
         }      
    });
 }
 
+function previousPage() {
+    
+}
+function nextPage() {
+    //next page
+}
 
 function getBlog() {
     $.get('entriesorig.json', function(data) {
