@@ -4,7 +4,6 @@ function pager() {
     var numItems = items.length;
     var perPage = 2;
     items.slice(perPage).hide();
-    $('.current.prev').hide();
 
     $('#blogcontent').pagination( {
         items:numItems,
@@ -13,6 +12,7 @@ function pager() {
         onPageClick: function(pageNum) {
             $('.page-link').hide();
             $('.current').hide();
+            $('.ellipse').hide();
             var start = perPage * (pageNum - 1);
             var end = start + perPage;
             items.hide()
@@ -30,6 +30,7 @@ function pager() {
         }      
    });
         $('.page-link').hide();
+        $('.ellipse').hide();
         $('.current').hide();
         $('.page-link.next').show();
         $('.current.prev').show();
