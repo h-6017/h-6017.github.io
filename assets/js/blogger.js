@@ -4,6 +4,10 @@ function pager() {
     var numItems = items.length;
     var perPage = 2;
     items.slice(perPage).hide();
+    $('.page-link').hide();
+    $('.current').hide();
+    $('.page-link.next').show();
+    $('.current.prev').show();
 
     $('#blogcontent').pagination( {
         items:numItems,
@@ -49,9 +53,5 @@ function getBlog() {
 $(document).ready(function(){
     getBlog();
     $(document).on('entries-loaded', pager);
-    $('.page-link').hide();
-    $('.current').hide();
-    $('.page-link.next').show();
-    $('.current.prev').show();
 });
 
