@@ -1,4 +1,7 @@
 //this is my new blog... isn't it great?
+function getSelection() {
+    
+}
 function pager() {
     var items = $('.blogpost');
     var numItems = items.length;
@@ -18,20 +21,16 @@ function pager() {
             items.hide()
                  .slice(start, end).show();
             if(pageNum == 1) {
-                console.log('hiding the previous  button');
                 $('.current.prev').hide();
                 $('.page-link.prev').hide();
             }else{
-                console.log('showing the previous button');
                 $('.current.prev').show();
                 $('.page-link.prev').show();
             }
             if(pageNum == Math.floor((numItems/perPage)+1)) {
-                console.log('hiding the next button');
                 $('.page-link.next').hide();
                 $('.current.next').hide();
             }else {
-                console.log('showing the next button');
                 $('.page-link.next').show();
                 $('.current.next').show();
             }
