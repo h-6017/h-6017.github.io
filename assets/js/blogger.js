@@ -16,15 +16,15 @@ function pager() {
             var end = start + perPage;
             items.hide()
                  .slice(start, end).show();
-            if(pageNum == 1) {
-                $('.current.prev').hide();
-            }else{
+            if(pageNum != 1) {
                 $('.current.prev').show();
+            }else{
+                $('.current.prev').hide();
             }
-            if(pageNum == numItems) {
-                $('.page-link.next').hide();
-            }else {
+            if(pageNum != numItems) {
                 $('.page-link.next').show();
+            }else {
+                $('.page-link.next').hide();
             }
         }      
    });
