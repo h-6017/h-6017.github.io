@@ -28,8 +28,9 @@ function pager() {
    });
 }
 
+
 function getBlog() {
-    $.get('entries.json', function(data) {
+    $.get('entriesorig.json', function(data) {
         $.each(data.entries, function(key, val) {
 
             console.log("Selecting Blog number " + key + " for next generation.");
