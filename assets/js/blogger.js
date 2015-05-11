@@ -1,7 +1,19 @@
 //this is my new blog... isn't it great?
 function getSelection() {
-    
+    $('#search2').on("keyup", function() {
+        $('.blogpost').hide();
+        var searchText = $(this).val().toLowerCase();
+        $('.blogpost').each(function() {
+            targetText = $(this).val().toLowerCase();
+            if(targetText.indexOf(searchText) != -1) {
+                $(this).show();
+            }else{
+                $('.blogpost').show();
+            }
+        });
+    });
 }
+
 function pager() {
     var items = $('.blogpost');
     var numItems = items.length;
