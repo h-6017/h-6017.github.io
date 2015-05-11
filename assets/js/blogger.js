@@ -4,7 +4,7 @@ $('#search2').on("keyup", function(){
     $('.blogpost').hide();
     var searchText = $(this).val().toLowerCase();
     $('.blogpost').each(function(){
-        targetText = $(this).val().toLowerCase();
+        var targetText = $(this).val().toLowerCase();
         if(targetText.indexOf(searchText) != -1) {
             $(this).show();
         }else{
