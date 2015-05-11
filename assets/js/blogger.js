@@ -14,7 +14,7 @@ function pager() {
             var end = start + perPage;
             items.hide()
                  .slice(start, end).show();
-            
+        }      
    });
 }
 
