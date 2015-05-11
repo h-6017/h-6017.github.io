@@ -27,7 +27,6 @@ function getBlog() {
     $.get('entriesorig.json', function(data) {
         $.each(data.entries, function(key, val) {
 
-            console.log("Selecting Blog number " + key + " for next generation.");
             var newBlogPost = $("<div id='" + key + "' class='col-sm-12 blogpost'></div>") 
             var small = $("<small>")
             var para = $("<p class='muted' style='float:right;'>" + val.date + "</p>")
@@ -44,7 +43,6 @@ function getBlog() {
 
             $('#blog').append(newBlogPost);
 
-            console.log("Blog number " + key + " generating...");
         });
         $(document).trigger('entries-loaded')
     });
