@@ -1,4 +1,5 @@
 //this is my new blog... isn't it great?
+/*
 $('#search2').on("keyup", function(){
     alert("Im working");
     $('.blogpost').hide();
@@ -12,7 +13,7 @@ $('#search2').on("keyup", function(){
         }
     });
 });
-
+*/
 function pager() {
     var items = $('.blogpost');
     var numItems = items.length;
