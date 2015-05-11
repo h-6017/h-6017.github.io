@@ -15,11 +15,11 @@ function pager() {
             items.hide()
                  .slice(start, end).show();
         }      
+   });
         $('.page-link').hide();
         $('.current').hide();
         $('.page-link.next').show();
         $('.current.prev').show();
-   });
 }
 
 
