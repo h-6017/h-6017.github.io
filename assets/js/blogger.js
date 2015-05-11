@@ -12,10 +12,6 @@ function pager() {
         onPageClick: function(pageNum) {
             var start = perPage * (pageNum - 1);
             var end = start + perPage;
-            $('.page-link').hide();
-            $('.current').hide();
-            $('.page-link.next').show();
-            $('.current.prev').show();
             items.hide()
                  .slice(start, end).show();
         }      
@@ -53,5 +49,9 @@ function getBlog() {
 $(document).ready(function(){
     getBlog();
     $(document).on('entries-loaded', pager);
+    $('.page-link').hide();
+    $('.current').hide();
+    $('.page-link.next').show();
+    $('.current.prev').show();
 });
 
