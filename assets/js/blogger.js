@@ -18,7 +18,7 @@ function pager() {
             items.hide()
                  .slice(start, end).show();
             if(pageNum == 1) {
-                console.log('hiding the previous button');
+                console.log('hiding the previous  button');
                 $('.current.prev').hide();
             }else{
                 console.log('showing the previous button');
