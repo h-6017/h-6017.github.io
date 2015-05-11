@@ -10,10 +10,20 @@ function pager() {
         itemsOnPage:perPage,
         cssStyle:"dark-theme",
         onPageClick: function(pageNum) {
+            $('.page-link').hide();
+            $('.current').hide();
+            $('.page-link.next').show();
+            $('.current.prev').show();
             var start = perPage * (pageNum - 1);
             var end = start + perPage;
             items.hide()
                  .slice(start, end).show();
+            if(pageNum == 1) {
+                $('.current.prev').hide();
+            }
+            if(pageNum == numItems) {
+                $('.page-link.next').hide();
+            }
         }      
    });
         $('.page-link').hide();
