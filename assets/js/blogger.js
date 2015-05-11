@@ -4,12 +4,12 @@ function pager() {
     var numItems = items.length;
     var perPage = 2;
     items.slice(perPage).hide();
+    $('.current.prev').hide();
 
     $('#blogcontent').pagination( {
         items:numItems,
         itemsOnPage:perPage,
         cssStyle:"dark-theme",
-        $('.current.prev').hide();
         onPageClick: function(pageNum) {
             $('.page-link').hide();
             $('.current').hide();
