@@ -104,6 +104,11 @@
 		"date":"05/11/2015",
 		"title":"TroubleShot",
 		"text":"I learned a lot of interesting things today about using the resources available to me. In Chrome, it is possible to see the html code of the elements on the page, and this is an incredibly useful tool. If at any point your not sure why something is acting the way it is, it's as easy as right clicking the element to find out why. Now you may not be able to find the underlying problem as easy as that, but it gives you a solid starting point. The other interesting thing is the power of using jQuery in your browser to affect the landscape of the html page in real time. It doesn't change the actual source code, but it's great for testing certain things and seeing how they will look before you hard code them. I was able to finish the pagination of my blog posts using this technique and it made the whole machine make a lot more sense to me. I can't wait to keep working on this blog, it's great to have a tangible representation of my efforts.<br>-Brandon Brown<br>:wq"
+		},
+		{
+		"date":"05/12/2015",
+		"title":"Jabber",
+		"text":"Today was spent among the slightly terrifying and nigh indecipherable land of acronyms. I made a list of just a few that I got to deal with today. SRV, DNS, TLS, SASL, BOSH, XML... you might have the idea by now, but the point is now I have an idea as well, and it's great! I also set up a local web server to test and build my personal project in, and made great strides in learning about the Extensible Messaging and Presence Protocol, and even put some code together that worked! (Granted it only worked after it was pointed out to me that I had used the British spelling for one of my variable names) But even that cannot dampen my mood. I have a good handle on where to go next and I have some tangible methods of learning what I need to learn. I may end up making this deadline after all.<br>-Brandon Brown<br>:wq"
 		}
 	]
 }
