@@ -124,6 +124,11 @@
 		"date":"05/15/2015",
 		"title":"Out of the woods.",
 		"text":"So incredibly happy that it is friday. I definately burned the candle at both ends this week, but being able to watch my website update as I text from across the room on my iphone made all of the effort worth it. I am starting to get emotionally connected, and ideas are spinning up. Not only that but I am beginning to build the skill set necessary to do something about it. Aslo had a lot of fun working with the styling and seeing how I could make my website more aesthetically pleasing. I have so much more work to do. But at least I do not have to make an hour drive each way until monday. I'm looking forward to a cold drink, a warm bed, and the company of my beautiful wife... and coding of course.<br>-Brandon Brown<br>:wq"
+		},
+		{
+		"date":"05/18/2015",
+		"title":"And in to the fire.",
+		"text":"We started the morning off with Demonstrations of our JavaScript project, and I am happy to say that I believe it went rather well. My stress level for the past week(while not pleasant) was highly effective in preparing me to give a talk on my peice of software. The fact that I have spent so much time in the code made it easy to find certain functions that were relevant very quickly. And forcing myself to understand the program better over the sleep-deprived weekend translated into a suprisingly cogent little walkthrough. After this exercise we were introduced to Visual Studio today, which is an IDE(Interactive Development Environment) based on the .NET framework. We are going to be using Visual Studio to creat c# applications, and today was mostly spent getting comfortable with the program, which seems quite powerful. It does give you a TON of shortcuts and allows you to use the GUI to generate code that matches the desired effect ie. dragging a button object from your toolbox and dropping it into your application will generate a new button function in your code that you can easily modify by double clicking the button you just created. It is nice to know that we will be sticking to one language for a while, and may actually have a little more time to explore what can be done with it.<br>-Brandon Brown<br>:wq"
 		}
 	]
 }
