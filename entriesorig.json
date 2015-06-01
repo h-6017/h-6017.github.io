@@ -159,6 +159,11 @@
 		"date":"05/29/2015",
 		"title":"A day in the life",
 		"text":"My favorite part of today was watching other people interact with the project I have been working on in class. It was really satisfying to see it work for another person and to have them give me positive feedback. As far as c# goes though, I'm still pretty shaky on a few of the core concepts, and that frustrates me quite a bit. Namespaces I get, classes I get, but some of the scope issues concerning when to use public and when to use private amd the getters and setters are tripping me up as well. I'm sure I'll get it eventually, but until then I just gotta keep working at it. Pretty excited to just play around this weekend, in leau of an assigned project, I'll probably be working on memory.I was able to get the help command working and displaying properly, and I am geared up to add some more features as soon as I get home. Have a great weekend, I know I will.<br>-Brandon Brown<br>:wq"
+		},
+		{
+		"date":"06/01/2015",
+		"title":"MVC",
+		"text":"Model, View, Controller. The name of the game is design philosophy, and it is really nice to finally have a frame work in which to orginize my applications. It is really helpful to compartmentalize the functionality in a like minded way. The idea is that every thing that displays on the screen, or allows the user to interact with the application is going to be coded in the View area. None of the logical operation should be here, simply the code that renders the information. The operational code goes into a different space entirely, where all of the logic would go. The last area of code is what is called the model. This is where the data lives, the format for your data structure, and the different entities you want to be able to instantiate. This is also completely seperate from the logic section. This disign philosophy makes it much nicer to deal with a big program, and you can feel confident that if a problem with your display occurs, the best place to check first is going to be inside your 'view' code, the same should be true for your controllers and your models respectively. Of course this is all contingent on the developer following the conventions well. But it certainly does a good job of providing a great place to start.<br>-Brandon Brown<br>:wq"
 		}
 	]
 }
