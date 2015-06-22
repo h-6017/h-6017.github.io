@@ -209,6 +209,11 @@
 		"date":"06/19/2015",
 		"title":"Study first",
 		"text":"I learned a very valuable to lesson this week. I have been struggling with the ASP.NET MVC framework for an assignment at school, and the week has been a lot of frustration and confusion as I became more and more lost. For some reason it never occured to me to check on line and see if perhaps their was some form of visual media in which someone might, you know, explain it in a very detailed, well thought out way. And it turns out the - you guessed it - that very thing exists! So while I am kicking myself for being so obtuse, I can't imagine that this is a lesson I will soon forget. I think I have definitely found the medium that I learn from the best. I have a plan for the weekend, I have a goal in mind, and I feel confident that I can accomplish it.<br>-Brandon Brown<br>:wq"
+		},
+		{
+		"date":"06/22/2015",
+		"title":"public static void main() {}",
+		"text":"What a mouthful eh? Thats a simple signature that denotes quite a few different things. Public means that any one can access this method as long as they can see the class it's inside of. Static means that it cannot access instance methods or variables within a class, because it can only see static data. Void denotes the fact that this particular method is not going to return anything, as if not returning anything from the method wasn't explicit enough in saying that nothing will be returned... My day was spent with the finer points of these concepts, along with a plethora of other keywords like protected, private, abstract, and base. I guess I just need to get to memorizing them flash cards. I have been diving a lot more in to javascript for the last few days. And I am excited to see what I can turn out in the next couple of days. Sleep will just have to wait a little while longer.<br>-Brandon Brown<br>:wq"
 		}
 	]
 }
