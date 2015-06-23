@@ -214,6 +214,11 @@
 		"date":"06/22/2015",
 		"title":"public static void main() {}",
 		"text":"What a mouthful eh? Thats a simple signature that denotes quite a few different things. Public means that any one can access this method as long as they can see the class it's inside of. Static means that it cannot access instance methods or variables within a class, because it can only see static data. Void denotes the fact that this particular method is not going to return anything, as if not returning anything from the method wasn't explicit enough in saying that nothing will be returned... My day was spent with the finer points of these concepts, along with a plethora of other keywords like protected, private, abstract, and base. I guess I just need to get to memorizing them flash cards. I have been diving a lot more in to javascript for the last few days. And I am excited to see what I can turn out in the next couple of days. Sleep will just have to wait a little while longer.<br>-Brandon Brown<br>:wq"
+		},
+		{
+		"date":"06/23/2015",
+		"title":"Reevaluate, refacter, reengineer.",
+		"text":"... Errrm. I think you mean start over, mulligan, throw away your code and do it differently. Is that what you meant? Ok good. I guess I'll go do that then. The first three solid hours of today was spent as a team trying to flesh out the requirements for our collaberation project. It seems that no one is really solid on what we are trying to accomplish, and as such are having trouble assessing what their next step should be. Hint *I was one of those people*. I'm sure it was tedious and boring for those in the team who already know what they are doing, but I don't really care, I am quite relieved to have a much clearer view of what I am trying to do. When I came back from lunch I had a new found vigor and was just getting into my groove when the ugly coding challenge monster reared it's ugly head and in true dcc fashion promptly tore me from my zone and didn't allow me to revisit what I was working on for the rest of the day. So I guess I'll try to find the magic understand button again tomorrow...<br>-Brandon Brown<br>:wq"
 		}
 	]
 }
